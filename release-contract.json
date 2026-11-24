@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "repository": "polymorfa/sdks",
-  "sourceSha": "2966d921a144164d57e48a80835f6ea5a443dfe2",
-  "fingerprint": "7757a5879c46f63757005f74adf7d16d5e9c94d093b7be0238d19a9ab9b8619a",
+  "sourceSha": "b95d65a942c838646ed12a393ad203d11754ec75",
+  "fingerprint": "55f79cec9dfe40392f7ee919e0d3d51ca54d2bf5709cb10296435764e1537207",
   "channel": "preview",
   "versions": {
-    "semver": "0.1.0-preview.20261116213644",
-    "python": "0.1.0a0.dev20261116213644",
-    "goTag": "packages/go/v0.1.0-preview.20261116213644"
+    "semver": "0.1.0-preview.20261124042948",
+    "python": "0.1.0a0.dev20261124042948",
+    "goTag": "packages/go/v0.1.0-preview.20261124042948"
   },
   "sourceSdkCommit": "e24cb176fc1124f5fe852ff6c77902648fd13b4a",
   "acceptance": null,
@@ -15,39 +15,47 @@
     "apiAcceptance": "not-verified",
     "apiSource": {
       "repository": "polymorfa/polymorfa",
-      "sourceSha": "f180dc1ee2bd45dbecf01702f73bdd75c664634b",
+      "sourceSha": "15db8b1c9d88e2ceccb58c851e731feabb659a39",
       "apiVersion": "2026-09-22",
       "contracts": {
         "messaging": {
           "sourcePath": "apps/api/docs/openapi.json",
-          "sha256": "0c66f1ee93923cf57425ac29c01a84c5c140b703ace2160e1b899ee6dad0b071"
+          "sha256": "e84c7ff814c6b59ca7f32c3fda1aedbed3f672e728910adb883f0aa8c6cf3ab7"
         },
         "platform": {
           "sourcePath": "apps/api/docs/openapi.management.json",
-          "sha256": "bee9be6cc08d2ec78f5eb5e05135bea3751f93af917b8dd6983b26029feac485"
+          "sha256": "e09ed3e8aa24e4f56fc64223ea3e54a9d603cdc533173ac0920a9d14f61be559"
         }
       }
     },
     "authorization": {
       "eventName": "workflow_dispatch",
       "ref": "refs/heads/main",
-      "runUrl": "https://github.com/polymorfa/sdks/actions/runs/43961895507",
+      "runUrl": "https://github.com/polymorfa/sdks/actions/runs/45326798187",
       "actor": "purpshell"
     },
     "featureContracts": [
       {
         "file": "contracts/abprops-capabilities.json",
-        "sha256": "4eae2c0370fe97e4a6302191e54b18ecc984e9e23ff8ba778cefa8dc9a6c349d",
+        "sha256": "115cc79d68564d8dde80e79db7700eb6adcc2470af0a18eab058000840559044",
         "repository": "polymorfa/polymorfa",
-        "sourceCommit": "2f9efad933b3a7a455f73245a566c827ac004608",
+        "sourceCommit": "15db8b1c9d88e2ceccb58c851e731feabb659a39",
         "sourceAccepted": null,
         "published": false
       },
       {
         "file": "contracts/analytics-device-signals.json",
-        "sha256": "68086bd358c750833d3a37d83a1136ffb83d52ab8b16c28801734abc2c7e427a",
+        "sha256": "98a058e4b56d2e88c5f962f341734595996dc29251f48f2ce361ccec6e66554c",
         "repository": "polymorfa/polymorfa",
-        "sourceCommit": "113d91b12a1db19cbddc4130cea308f38663bb9d",
+        "sourceCommit": "15db8b1c9d88e2ceccb58c851e731feabb659a39",
+        "sourceAccepted": null,
+        "published": false
+      },
+      {
+        "file": "contracts/ban-credit-waivers.json",
+        "sha256": "fee483894956ed413ceec82e9acdbe3e84d8f828ac84baf2f0ad223d060dc436",
+        "repository": "polymorfa/polymorfa",
+        "sourceCommit": "f180dc1ee2bd45dbecf01702f73bdd75c664634b",
         "sourceAccepted": null,
         "published": false
       },
@@ -85,27 +93,27 @@
       },
       {
         "file": "contracts/campaign-custody-20261014.json",
-        "sha256": "e09bd5a076845aea3d049ccff15d19df805ebdf5b4a0576ce347e515d8577c1c",
+        "sha256": "bf5fcf1b9cd62f7e49554ea9fc151206fc1c0a6d11320ad7acb03052f09a93a5",
         "repository": "polymorfa/polymorfa",
-        "sourceCommit": "f97ad78b172e80788c33bdc0fcf28f75db9283ec",
+        "sourceCommit": "15db8b1c9d88e2ceccb58c851e731feabb659a39",
         "sourceAccepted": null,
         "published": false
       },
       {
         "file": "contracts/campaign-follow-ups.json",
-        "sha256": "b9f2d52244a7bc1d3da90cf881e50cc56703364a80a068499f7861f66a85e724",
+        "sha256": "80f17574a80255375db4a0d4154aa698977ef14835597d4369449b98301d59b1",
         "repository": "polymorfa/polymorfa",
-        "sourceCommit": "87b25fd9e2494d90f01f7511fb47be6a28845fa1",
+        "sourceCommit": "15db8b1c9d88e2ceccb58c851e731feabb659a39",
         "sourceAccepted": null,
-        "published": null
+        "published": false
       },
       {
         "file": "contracts/campaign-frequency-cap.json",
-        "sha256": "86eddc872316d2b05ed0701e0a6235f64b92b0498d21b9ceb6d660fc9024ce77",
+        "sha256": "1621bc7148bf7fe4fd70267105cbc6fe936ea26307869d335480e502c1b67964",
         "repository": "polymorfa/polymorfa",
-        "sourceCommit": "9bb1e2ed92d8b4a07ff727f8e7ae185498f0868f",
+        "sourceCommit": "15db8b1c9d88e2ceccb58c851e731feabb659a39",
         "sourceAccepted": null,
-        "published": null
+        "published": false
       },
       {
         "file": "contracts/campaign-message-variations.json",
@@ -125,17 +133,17 @@
       },
       {
         "file": "contracts/campaign-segments-drip.json",
-        "sha256": "59d77789ba1dc035d8a9673a673ba4cf9fa1d553cf6042453951f914bae05377",
+        "sha256": "1a8e4e017cccb1cc3c456b9ec91fdb34a3cbd688987f81c3a7ab8a9c668acb4e",
         "repository": "polymorfa/polymorfa",
-        "sourceCommit": "9bb1e2ed92d8b4a07ff727f8e7ae185498f0868f",
+        "sourceCommit": "15db8b1c9d88e2ceccb58c851e731feabb659a39",
         "sourceAccepted": null,
-        "published": null
+        "published": false
       },
       {
         "file": "contracts/client-token-ceilings.json",
-        "sha256": "727cb09a3deef27b24416ef9f52c6fddc5d1af360014b59363b50573df720527",
+        "sha256": "5abcfad6b745a040c506b635e859b447b2555bd1a075b0ed3413e286a0c6e0cf",
         "repository": "polymorfa/polymorfa",
-        "sourceCommit": "02aee1d010c5009401c0b60ab98eafd3dfd69f08",
+        "sourceCommit": "15db8b1c9d88e2ceccb58c851e731feabb659a39",
         "sourceAccepted": null,
         "published": false
       },
@@ -205,19 +213,19 @@
       },
       {
         "file": "contracts/testing-events.json",
-        "sha256": "2d03c7044d3a58017722692c0d944c4dc6cd8961aa231dcd5a7c7ee135d48b94",
+        "sha256": "c728fdebbff52491135674ed55b07cf6d78c8e5fa1b05cb46e58e9892978806b",
         "repository": "polymorfa/polymorfa",
-        "sourceCommit": "6839976e7ad54e044c4d789fd296edc44772a907",
+        "sourceCommit": "15db8b1c9d88e2ceccb58c851e731feabb659a39",
         "sourceAccepted": null,
-        "published": null
+        "published": false
       },
       {
         "file": "contracts/testing-phone.json",
-        "sha256": "5eef77d9370e3837d674fb807d389e77473363f9baa378457590bf4b27ff99e6",
+        "sha256": "ae27286b4df3da285e8fd3d7f57d28a64c5935ef64ecbd5ccaf560b17d501ed4",
         "repository": "polymorfa/polymorfa",
-        "sourceCommit": "2f1510f901aca1d68398a6dc9dbf243348c672c0",
+        "sourceCommit": "15db8b1c9d88e2ceccb58c851e731feabb659a39",
         "sourceAccepted": null,
-        "published": null
+        "published": false
       },
       {
         "file": "contracts/webhook-phone-offline.json",
@@ -238,30 +246,18 @@
     ],
     "coverage": {
       "path": "contracts/coverage.json",
-      "sha256": "31aeb6f8ecbdd745815ee9febf7e4f58811a23e3fa483d01f632584cd86f1ac5",
-      "sourceCommit": "f180dc1ee2bd45dbecf01702f73bdd75c664634b",
-      "operationCount": 671,
+      "sha256": "abb0b3e0fac0125fbbf3bb6a5d150c3a64d8837eee42c5d1a1cf4e80113a2fb7",
+      "sourceCommit": "15db8b1c9d88e2ceccb58c851e731feabb659a39",
+      "operationCount": 672,
       "languages": {
         "typescript": {
           "counts": {
-            "covered": 451,
-            "partial": 2,
-            "missing": 58,
+            "covered": 460,
+            "partial": 1,
+            "missing": 51,
             "excluded": 160
           },
           "incomplete": [
-            {
-              "operationId": "createQuickLink",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateCallSettings",
-              "status": "partial"
-            },
-            {
-              "operationId": "listSessionCalls",
-              "status": "missing"
-            },
             {
               "operationId": "getGroupCapabilities",
               "status": "missing"
@@ -272,10 +268,6 @@
             },
             {
               "operationId": "getPasskeyConfirmation",
-              "status": "missing"
-            },
-            {
-              "operationId": "getTestingPhone",
               "status": "missing"
             },
             {
@@ -292,10 +284,6 @@
             },
             {
               "operationId": "exportProjectCampaignRecipients",
-              "status": "missing"
-            },
-            {
-              "operationId": "listTestEventFixtures",
               "status": "missing"
             },
             {
@@ -327,14 +315,6 @@
               "status": "missing"
             },
             {
-              "operationId": "unlinkTestingPhoneDevice",
-              "status": "missing"
-            },
-            {
-              "operationId": "sendTestingPhoneMessage",
-              "status": "missing"
-            },
-            {
               "operationId": "bootstrapRecentStickers",
               "status": "missing"
             },
@@ -344,14 +324,6 @@
             },
             {
               "operationId": "requestStickerReupload",
-              "status": "missing"
-            },
-            {
-              "operationId": "triggerTestEvent",
-              "status": "missing"
-            },
-            {
-              "operationId": "createTestingHistoryFixture",
               "status": "missing"
             },
             {
@@ -459,15 +431,15 @@
               "status": "missing"
             },
             {
+              "operationId": "releaseConnectionInspectorClaim",
+              "status": "missing"
+            },
+            {
               "operationId": "acceptFeatureTerms",
               "status": "missing"
             },
             {
               "operationId": "withdrawFeatureTerms",
-              "status": "missing"
-            },
-            {
-              "operationId": "releaseSessionInspectorClaim",
               "status": "missing"
             },
             {
@@ -477,6 +449,10 @@
             {
               "operationId": "setPlatformCampaignReplyFlow",
               "status": "missing"
+            },
+            {
+              "operationId": "updateCallSettings",
+              "status": "partial"
             },
             {
               "operationId": "updateStopConfirmationSettings",
@@ -494,48 +470,12 @@
         },
         "go": {
           "counts": {
-            "covered": 445,
-            "partial": 8,
-            "missing": 58,
+            "covered": 454,
+            "partial": 7,
+            "missing": 51,
             "excluded": 160
           },
           "incomplete": [
-            {
-              "operationId": "createQuickLink",
-              "status": "partial"
-            },
-            {
-              "operationId": "createWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateProjectWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateTeamWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "createProjectWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "createTeamWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateCallSettings",
-              "status": "partial"
-            },
-            {
-              "operationId": "listSessionCalls",
-              "status": "missing"
-            },
             {
               "operationId": "getGroupCapabilities",
               "status": "missing"
@@ -546,10 +486,6 @@
             },
             {
               "operationId": "getPasskeyConfirmation",
-              "status": "missing"
-            },
-            {
-              "operationId": "getTestingPhone",
               "status": "missing"
             },
             {
@@ -566,10 +502,6 @@
             },
             {
               "operationId": "exportProjectCampaignRecipients",
-              "status": "missing"
-            },
-            {
-              "operationId": "listTestEventFixtures",
               "status": "missing"
             },
             {
@@ -601,14 +533,6 @@
               "status": "missing"
             },
             {
-              "operationId": "unlinkTestingPhoneDevice",
-              "status": "missing"
-            },
-            {
-              "operationId": "sendTestingPhoneMessage",
-              "status": "missing"
-            },
-            {
               "operationId": "bootstrapRecentStickers",
               "status": "missing"
             },
@@ -621,20 +545,16 @@
               "status": "missing"
             },
             {
-              "operationId": "triggerTestEvent",
-              "status": "missing"
-            },
-            {
-              "operationId": "createTestingHistoryFixture",
-              "status": "missing"
-            },
-            {
               "operationId": "createCampaignReplyFlow",
               "status": "missing"
             },
             {
               "operationId": "testSendCampaign",
               "status": "missing"
+            },
+            {
+              "operationId": "createWebhook",
+              "status": "partial"
             },
             {
               "operationId": "setTestingAccountMode",
@@ -647,6 +567,10 @@
             {
               "operationId": "setCampaignReplyFlow",
               "status": "missing"
+            },
+            {
+              "operationId": "updateWebhook",
+              "status": "partial"
             },
             {
               "operationId": "cancelAudienceProfileImport",
@@ -717,6 +641,14 @@
               "status": "missing"
             },
             {
+              "operationId": "updateProjectWebhook",
+              "status": "partial"
+            },
+            {
+              "operationId": "updateTeamWebhook",
+              "status": "partial"
+            },
+            {
               "operationId": "createAudienceProfileImport",
               "status": "missing"
             },
@@ -733,6 +665,10 @@
               "status": "missing"
             },
             {
+              "operationId": "releaseConnectionInspectorClaim",
+              "status": "missing"
+            },
+            {
               "operationId": "acceptFeatureTerms",
               "status": "missing"
             },
@@ -741,8 +677,12 @@
               "status": "missing"
             },
             {
-              "operationId": "releaseSessionInspectorClaim",
-              "status": "missing"
+              "operationId": "createProjectWebhook",
+              "status": "partial"
+            },
+            {
+              "operationId": "createTeamWebhook",
+              "status": "partial"
             },
             {
               "operationId": "putAudienceProfile",
@@ -751,6 +691,10 @@
             {
               "operationId": "setPlatformCampaignReplyFlow",
               "status": "missing"
+            },
+            {
+              "operationId": "updateCallSettings",
+              "status": "partial"
             },
             {
               "operationId": "updateStopConfirmationSettings",
@@ -768,48 +712,12 @@
         },
         "python": {
           "counts": {
-            "covered": 445,
-            "partial": 8,
-            "missing": 58,
+            "covered": 454,
+            "partial": 7,
+            "missing": 51,
             "excluded": 160
           },
           "incomplete": [
-            {
-              "operationId": "createQuickLink",
-              "status": "partial"
-            },
-            {
-              "operationId": "createWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateProjectWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateTeamWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "createProjectWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "createTeamWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateCallSettings",
-              "status": "partial"
-            },
-            {
-              "operationId": "listSessionCalls",
-              "status": "missing"
-            },
             {
               "operationId": "getGroupCapabilities",
               "status": "missing"
@@ -820,10 +728,6 @@
             },
             {
               "operationId": "getPasskeyConfirmation",
-              "status": "missing"
-            },
-            {
-              "operationId": "getTestingPhone",
               "status": "missing"
             },
             {
@@ -840,10 +744,6 @@
             },
             {
               "operationId": "exportProjectCampaignRecipients",
-              "status": "missing"
-            },
-            {
-              "operationId": "listTestEventFixtures",
               "status": "missing"
             },
             {
@@ -875,14 +775,6 @@
               "status": "missing"
             },
             {
-              "operationId": "unlinkTestingPhoneDevice",
-              "status": "missing"
-            },
-            {
-              "operationId": "sendTestingPhoneMessage",
-              "status": "missing"
-            },
-            {
               "operationId": "bootstrapRecentStickers",
               "status": "missing"
             },
@@ -895,20 +787,16 @@
               "status": "missing"
             },
             {
-              "operationId": "triggerTestEvent",
-              "status": "missing"
-            },
-            {
-              "operationId": "createTestingHistoryFixture",
-              "status": "missing"
-            },
-            {
               "operationId": "createCampaignReplyFlow",
               "status": "missing"
             },
             {
               "operationId": "testSendCampaign",
               "status": "missing"
+            },
+            {
+              "operationId": "createWebhook",
+              "status": "partial"
             },
             {
               "operationId": "setTestingAccountMode",
@@ -921,6 +809,10 @@
             {
               "operationId": "setCampaignReplyFlow",
               "status": "missing"
+            },
+            {
+              "operationId": "updateWebhook",
+              "status": "partial"
             },
             {
               "operationId": "cancelAudienceProfileImport",
@@ -991,6 +883,14 @@
               "status": "missing"
             },
             {
+              "operationId": "updateProjectWebhook",
+              "status": "partial"
+            },
+            {
+              "operationId": "updateTeamWebhook",
+              "status": "partial"
+            },
+            {
               "operationId": "createAudienceProfileImport",
               "status": "missing"
             },
@@ -1007,6 +907,10 @@
               "status": "missing"
             },
             {
+              "operationId": "releaseConnectionInspectorClaim",
+              "status": "missing"
+            },
+            {
               "operationId": "acceptFeatureTerms",
               "status": "missing"
             },
@@ -1015,8 +919,12 @@
               "status": "missing"
             },
             {
-              "operationId": "releaseSessionInspectorClaim",
-              "status": "missing"
+              "operationId": "createProjectWebhook",
+              "status": "partial"
+            },
+            {
+              "operationId": "createTeamWebhook",
+              "status": "partial"
             },
             {
               "operationId": "putAudienceProfile",
@@ -1025,6 +933,10 @@
             {
               "operationId": "setPlatformCampaignReplyFlow",
               "status": "missing"
+            },
+            {
+              "operationId": "updateCallSettings",
+              "status": "partial"
             },
             {
               "operationId": "updateStopConfirmationSettings",
@@ -1042,48 +954,12 @@
         },
         "php": {
           "counts": {
-            "covered": 445,
-            "partial": 8,
-            "missing": 58,
+            "covered": 454,
+            "partial": 7,
+            "missing": 51,
             "excluded": 160
           },
           "incomplete": [
-            {
-              "operationId": "createQuickLink",
-              "status": "partial"
-            },
-            {
-              "operationId": "createWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateProjectWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateTeamWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "createProjectWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "createTeamWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateCallSettings",
-              "status": "partial"
-            },
-            {
-              "operationId": "listSessionCalls",
-              "status": "missing"
-            },
             {
               "operationId": "getGroupCapabilities",
               "status": "missing"
@@ -1094,10 +970,6 @@
             },
             {
               "operationId": "getPasskeyConfirmation",
-              "status": "missing"
-            },
-            {
-              "operationId": "getTestingPhone",
               "status": "missing"
             },
             {
@@ -1114,10 +986,6 @@
             },
             {
               "operationId": "exportProjectCampaignRecipients",
-              "status": "missing"
-            },
-            {
-              "operationId": "listTestEventFixtures",
               "status": "missing"
             },
             {
@@ -1149,14 +1017,6 @@
               "status": "missing"
             },
             {
-              "operationId": "unlinkTestingPhoneDevice",
-              "status": "missing"
-            },
-            {
-              "operationId": "sendTestingPhoneMessage",
-              "status": "missing"
-            },
-            {
               "operationId": "bootstrapRecentStickers",
               "status": "missing"
             },
@@ -1169,20 +1029,16 @@
               "status": "missing"
             },
             {
-              "operationId": "triggerTestEvent",
-              "status": "missing"
-            },
-            {
-              "operationId": "createTestingHistoryFixture",
-              "status": "missing"
-            },
-            {
               "operationId": "createCampaignReplyFlow",
               "status": "missing"
             },
             {
               "operationId": "testSendCampaign",
               "status": "missing"
+            },
+            {
+              "operationId": "createWebhook",
+              "status": "partial"
             },
             {
               "operationId": "setTestingAccountMode",
@@ -1195,6 +1051,10 @@
             {
               "operationId": "setCampaignReplyFlow",
               "status": "missing"
+            },
+            {
+              "operationId": "updateWebhook",
+              "status": "partial"
             },
             {
               "operationId": "cancelAudienceProfileImport",
@@ -1265,6 +1125,14 @@
               "status": "missing"
             },
             {
+              "operationId": "updateProjectWebhook",
+              "status": "partial"
+            },
+            {
+              "operationId": "updateTeamWebhook",
+              "status": "partial"
+            },
+            {
               "operationId": "createAudienceProfileImport",
               "status": "missing"
             },
@@ -1281,6 +1149,10 @@
               "status": "missing"
             },
             {
+              "operationId": "releaseConnectionInspectorClaim",
+              "status": "missing"
+            },
+            {
               "operationId": "acceptFeatureTerms",
               "status": "missing"
             },
@@ -1289,8 +1161,12 @@
               "status": "missing"
             },
             {
-              "operationId": "releaseSessionInspectorClaim",
-              "status": "missing"
+              "operationId": "createProjectWebhook",
+              "status": "partial"
+            },
+            {
+              "operationId": "createTeamWebhook",
+              "status": "partial"
             },
             {
               "operationId": "putAudienceProfile",
@@ -1299,6 +1175,10 @@
             {
               "operationId": "setPlatformCampaignReplyFlow",
               "status": "missing"
+            },
+            {
+              "operationId": "updateCallSettings",
+              "status": "partial"
             },
             {
               "operationId": "updateStopConfirmationSettings",
@@ -1316,48 +1196,12 @@
         },
         "dotnet": {
           "counts": {
-            "covered": 445,
-            "partial": 8,
-            "missing": 58,
+            "covered": 454,
+            "partial": 7,
+            "missing": 51,
             "excluded": 160
           },
           "incomplete": [
-            {
-              "operationId": "createQuickLink",
-              "status": "partial"
-            },
-            {
-              "operationId": "createWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateProjectWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateTeamWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "createProjectWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "createTeamWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateCallSettings",
-              "status": "partial"
-            },
-            {
-              "operationId": "listSessionCalls",
-              "status": "missing"
-            },
             {
               "operationId": "getGroupCapabilities",
               "status": "missing"
@@ -1368,10 +1212,6 @@
             },
             {
               "operationId": "getPasskeyConfirmation",
-              "status": "missing"
-            },
-            {
-              "operationId": "getTestingPhone",
               "status": "missing"
             },
             {
@@ -1388,10 +1228,6 @@
             },
             {
               "operationId": "exportProjectCampaignRecipients",
-              "status": "missing"
-            },
-            {
-              "operationId": "listTestEventFixtures",
               "status": "missing"
             },
             {
@@ -1423,14 +1259,6 @@
               "status": "missing"
             },
             {
-              "operationId": "unlinkTestingPhoneDevice",
-              "status": "missing"
-            },
-            {
-              "operationId": "sendTestingPhoneMessage",
-              "status": "missing"
-            },
-            {
               "operationId": "bootstrapRecentStickers",
               "status": "missing"
             },
@@ -1443,20 +1271,16 @@
               "status": "missing"
             },
             {
-              "operationId": "triggerTestEvent",
-              "status": "missing"
-            },
-            {
-              "operationId": "createTestingHistoryFixture",
-              "status": "missing"
-            },
-            {
               "operationId": "createCampaignReplyFlow",
               "status": "missing"
             },
             {
               "operationId": "testSendCampaign",
               "status": "missing"
+            },
+            {
+              "operationId": "createWebhook",
+              "status": "partial"
             },
             {
               "operationId": "setTestingAccountMode",
@@ -1469,6 +1293,10 @@
             {
               "operationId": "setCampaignReplyFlow",
               "status": "missing"
+            },
+            {
+              "operationId": "updateWebhook",
+              "status": "partial"
             },
             {
               "operationId": "cancelAudienceProfileImport",
@@ -1539,6 +1367,14 @@
               "status": "missing"
             },
             {
+              "operationId": "updateProjectWebhook",
+              "status": "partial"
+            },
+            {
+              "operationId": "updateTeamWebhook",
+              "status": "partial"
+            },
+            {
               "operationId": "createAudienceProfileImport",
               "status": "missing"
             },
@@ -1555,6 +1391,10 @@
               "status": "missing"
             },
             {
+              "operationId": "releaseConnectionInspectorClaim",
+              "status": "missing"
+            },
+            {
               "operationId": "acceptFeatureTerms",
               "status": "missing"
             },
@@ -1563,8 +1403,12 @@
               "status": "missing"
             },
             {
-              "operationId": "releaseSessionInspectorClaim",
-              "status": "missing"
+              "operationId": "createProjectWebhook",
+              "status": "partial"
+            },
+            {
+              "operationId": "createTeamWebhook",
+              "status": "partial"
             },
             {
               "operationId": "putAudienceProfile",
@@ -1573,6 +1417,10 @@
             {
               "operationId": "setPlatformCampaignReplyFlow",
               "status": "missing"
+            },
+            {
+              "operationId": "updateCallSettings",
+              "status": "partial"
             },
             {
               "operationId": "updateStopConfirmationSettings",
@@ -1590,48 +1438,12 @@
         },
         "rust": {
           "counts": {
-            "covered": 445,
-            "partial": 8,
-            "missing": 58,
+            "covered": 454,
+            "partial": 7,
+            "missing": 51,
             "excluded": 160
           },
           "incomplete": [
-            {
-              "operationId": "createQuickLink",
-              "status": "partial"
-            },
-            {
-              "operationId": "createWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateProjectWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateTeamWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "createProjectWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "createTeamWebhook",
-              "status": "partial"
-            },
-            {
-              "operationId": "updateCallSettings",
-              "status": "partial"
-            },
-            {
-              "operationId": "listSessionCalls",
-              "status": "missing"
-            },
             {
               "operationId": "getGroupCapabilities",
               "status": "missing"
@@ -1642,10 +1454,6 @@
             },
             {
               "operationId": "getPasskeyConfirmation",
-              "status": "missing"
-            },
-            {
-              "operationId": "getTestingPhone",
               "status": "missing"
             },
             {
@@ -1662,10 +1470,6 @@
             },
             {
               "operationId": "exportProjectCampaignRecipients",
-              "status": "missing"
-            },
-            {
-              "operationId": "listTestEventFixtures",
               "status": "missing"
             },
             {
@@ -1697,14 +1501,6 @@
               "status": "missing"
             },
             {
-              "operationId": "unlinkTestingPhoneDevice",
-              "status": "missing"
-            },
-            {
-              "operationId": "sendTestingPhoneMessage",
-              "status": "missing"
-            },
-            {
               "operationId": "bootstrapRecentStickers",
               "status": "missing"
             },
@@ -1717,20 +1513,16 @@
               "status": "missing"
             },
             {
-              "operationId": "triggerTestEvent",
-              "status": "missing"
-            },
-            {
-              "operationId": "createTestingHistoryFixture",
-              "status": "missing"
-            },
-            {
               "operationId": "createCampaignReplyFlow",
               "status": "missing"
             },
             {
               "operationId": "testSendCampaign",
               "status": "missing"
+            },
+            {
+              "operationId": "createWebhook",
+              "status": "partial"
             },
             {
               "operationId": "setTestingAccountMode",
@@ -1743,6 +1535,10 @@
             {
               "operationId": "setCampaignReplyFlow",
               "status": "missing"
+            },
+            {
+              "operationId": "updateWebhook",
+              "status": "partial"
             },
             {
               "operationId": "cancelAudienceProfileImport",
@@ -1813,6 +1609,14 @@
               "status": "missing"
             },
             {
+              "operationId": "updateProjectWebhook",
+              "status": "partial"
+            },
+            {
+              "operationId": "updateTeamWebhook",
+              "status": "partial"
+            },
+            {
               "operationId": "createAudienceProfileImport",
               "status": "missing"
             },
@@ -1829,6 +1633,10 @@
               "status": "missing"
             },
             {
+              "operationId": "releaseConnectionInspectorClaim",
+              "status": "missing"
+            },
+            {
               "operationId": "acceptFeatureTerms",
               "status": "missing"
             },
@@ -1837,8 +1645,12 @@
               "status": "missing"
             },
             {
-              "operationId": "releaseSessionInspectorClaim",
-              "status": "missing"
+              "operationId": "createProjectWebhook",
+              "status": "partial"
+            },
+            {
+              "operationId": "createTeamWebhook",
+              "status": "partial"
             },
             {
               "operationId": "putAudienceProfile",
@@ -1847,6 +1659,10 @@
             {
               "operationId": "setPlatformCampaignReplyFlow",
               "status": "missing"
+            },
+            {
+              "operationId": "updateCallSettings",
+              "status": "partial"
             },
             {
               "operationId": "updateStopConfirmationSettings",

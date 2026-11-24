@@ -13,7 +13,7 @@ use Psr\Http\Message\ResponseInterface;
 
 final class HttpTransport
 {
-    public const SDK_VERSION = '0.1.0-preview.20261116213644';
+    public const SDK_VERSION = '0.1.0-preview.20261124042948';
     public const API_VERSION = '2026-09-22';
     private readonly ClientInterface $http;
     private readonly string $baseUrl;
